@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      // Output CommonJS module code
+      "module": "CommonJS",
+      // Output directory for CommonJS files
+      "outDir": "./dist/cjs",
+      // Generate declaration files (.d.ts)
+      "declaration": true,
+      "declarationDir": "./dist/types"
+    }
+  }
+  
