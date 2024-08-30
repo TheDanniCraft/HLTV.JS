@@ -1,9 +1,9 @@
-import UserAgent from 'user-agents'
+import UserAgent from 'user-agents';
 
 export const HLTV = {
     BASE: 'https://www.hltv.org',
     CDN: 'https://img-cdn.hltv.org',
-    news: 'rss/news'
-}
+    news: 'rss/news',
+};
 
-export const USER_AGENT = new UserAgent().toString()
+export const USER_AGENT = new UserAgent().toString();

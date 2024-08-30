@@ -1,5 +1,3 @@
-import { getNews } from "./getNews";
+import { getNews } from './getNews';
 
-export default {
-    getNews
-}
+export { getNews };
