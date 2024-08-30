@@ -1,25 +1,25 @@
 {
-  "compilerOptions": {
-    // Target the latest JavaScript features and DOM APIs
-    "lib": ["ESNext", "DOM"],
-    "target": "ESNext",
-    // Module resolution strategy
-    "module": "ESNext",
-    "moduleResolution": "node",
-    // Enable default import compatibility with CommonJS modules
-    "esModuleInterop": true,
-    // Strict type checking options
-    "strict": true,
-    "skipLibCheck": true,
-    "noFallthroughCasesInSwitch": true,
-    // Disable warnings for unused locals and parameters
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    // Allow accessing properties from index signatures
-    "noPropertyAccessFromIndexSignature": false
-  },
-  // Include all TypeScript files in the `src` directory
-  "include": ["src/**/*"],
-  // Exclude node_modules and test files from compilation
-  "exclude": ["node_modules", "**/*.test.ts"]
+    "compilerOptions": {
+        // Target the latest JavaScript features and DOM APIs
+        "lib": ["ESNext", "DOM"],
+        "target": "ESNext",
+        // Module resolution strategy
+        "module": "ESNext",
+        "moduleResolution": "node",
+        // Enable default import compatibility with CommonJS modules
+        "esModuleInterop": true,
+        // Strict type checking options
+        "strict": true,
+        "skipLibCheck": true,
+        "noFallthroughCasesInSwitch": true,
+        // Disable warnings for unused locals and parameters
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        // Allow accessing properties from index signatures
+        "noPropertyAccessFromIndexSignature": false
+    },
+    // Include all TypeScript files in the `src` directory
+    "include": ["src/**/*"],
+    // Exclude node_modules and test files from compilation
+    "exclude": ["node_modules", "**/*.test.ts"]
 }
