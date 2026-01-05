@@ -1,0 +1,52 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "rangeStrategy": "bump",
+  "branchPrefix": "renovate/",
+  "additionalBranchPrefix": "{{{manager}}}/",
+  "labels": ["dependencies", "renovate"],
+  "commitMessagePrefix": "⬆️ Bump ",
+  "commitMessageAction": "",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": " to {{newVersion}}",
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^eslint$", "^@eslint/js$", "^typescript-eslint$"],
+      "groupName": "eslint tooling"
+    },
+    {
+      "matchPackagePatterns": ["^prettier$"],
+      "groupName": "prettier"
+    },
+    {
+      "matchPackagePatterns": ["^typescript$", "^ts-node$"],
+      "groupName": "typescript"
+    },
+    {
+      "matchPackagePatterns": ["^jest$", "^ts-jest$", "^@types/jest$"],
+      "groupName": "jest"
+    },
+    {
+      "matchPackagePatterns": ["^typedoc$", "^typedoc-plugin-"],
+      "groupName": "typedoc"
+    },
+    {
+      "matchPackagePatterns": ["^@types/"],
+      "groupName": "types"
+    },
+    {
+      "matchPackagePatterns": ["^axios$", "^axios-mock-adapter$"],
+      "groupName": "axios"
+    },
+    {
+      "matchPackagePatterns": ["^user-agents$", "^@types/user-agents$"],
+      "groupName": "user-agents"
+    },
+    {
+      "matchPackagePatterns": ["^xml2js$", "^@types/xml2js$"],
+      "groupName": "xml2js"
+    }
+  ]
+}
