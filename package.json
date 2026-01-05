@@ -33,7 +33,7 @@
         "@eslint/js": "^9.9.1",
         "axios": "^1.7.4",
         "eslint": "^9.9.1",
-        "user-agents": "^1.1.300",
+        "user-agents": "^1.1.669",
         "xml2js": "^0.6.2"
     }
 }
