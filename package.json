@@ -32,7 +32,7 @@
     "dependencies": {
         "@eslint/js": "^10.0.1",
         "axios": "^1.13.5",
-        "eslint": "^10.0.0",
+        "eslint": "^10.0.1",
         "user-agents": "^1.1.669",
         "xml2js": "^0.6.2"
     }
