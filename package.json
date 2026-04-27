@@ -24,7 +24,7 @@
         "ts-node": "^10.9.2",
         "typedoc": "^0.28.17",
         "typedoc-plugin-missing-exports": "^4.1.2",
-        "typescript-eslint": "^8.56.1"
+        "typescript-eslint": "^8.59.1"
     },
     "peerDependencies": {
         "typescript": "^5.9.3"
@@ -32,7 +32,7 @@
     "dependencies": {
         "@eslint/js": "^10.0.1",
         "axios": "^1.13.6",
-        "eslint": "^10.0.2",
+        "eslint": "^10.2.1",
         "user-agents": "^1.1.669",
         "xml2js": "^0.6.2"
     }
